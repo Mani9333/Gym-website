@@ -1,0 +1,21 @@
+doctype html
+html
+  head
+    title Planet Fitness
+    block scripts
+    block style 
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/img/logo.png")
+                |  PF
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            //- li #[a(href="/") Services]
+            li #[a(href="/") Fee Info]
+            li #[a(href="/contact") Contact Us]
+            
+    block content
+    footer#footer
+        | Copyright © 2023 PlanetFitnessDemo.com | All rights reserved | (Fake)
