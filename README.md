@@ -4,8 +4,8 @@
 ## Technologies Used
 
 - HTML, CSS, Javascript
-- Node - Mongoose, Pug, Express
-- MongoDB to securely store the data provided through the portal
+- Node - Mongoose, Pug - View Engine, Express
+- MongoDB to securely store the customer data and the form data
 
 ## Screenshots
 
