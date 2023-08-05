@@ -1,0 +1,20 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+      include ../static/styleContact.css
+
+block content
+    div.container
+        h1 Register
+        form(action="/signup", method="post", class="myForm")
+            input(type="text", class="myInput", name="name", placeholder="Enter your username")
+            input(type="email", class="myInput", name="email", placeholder="Enter your email")
+            input(type="password", class="myInput", name="password", placeholder="Enter your password")
+            button(class="btn")
+                | Register
+            

@@ -9,6 +9,12 @@
 - MongoDB to securely store the data provided through the portal
 
 ## Screenshots
-![HomePage](./HomePage.png)
 
+### Login
+![LoginPage](./LoginPage.png)
+### SignUp
+![RegisterUser](./RegisterUser.png)
+### Home
+![HomePage](./HomePage.png)
+### ContactUs
 ![ContactUs](./ContactUs.png)

@@ -35,6 +35,11 @@ height: 42px;
     
 }
 
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 #navbar li{
     list-style: none;
 }
